@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #475F45;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #343D33;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.header__content {
+    display: flex;
+}
+
+.logo {
+    border-radius: 50%;
+    display: flex;
+
+}
+
+.logo__img {
+    margin-right: 14px;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__title {
+    font-size: 23px;
+    font-family: Roboto;
+}
+
+.logo__subtitle {
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.nav {
+    display: flex;
+    padding: 0 40px;
+    padding: 15px 0px;
+}
+
+.nav__list {
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+    font-size: 14px;
+    font-family: Roboto;
+    margin-right: 40px;
+}
+
+.nav__item--border {
+    color: #475F45;
+    border: 1px solid #475F45;
+    width: 169px;
+    height: 46px;
+    padding: 15px 30px;
+}
+
+.hero__content {
+    display: flex;
+    
+}
+
+.hero__column {
+    width: 528px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero__desc {
+    font-size: 25px;
+    color: #414840;
+    margin-bottom: 32px;
+}
+
+.btn {
+    width: 185px;
+    height: 56px;
+    border: 1px solid #475F45;
+    color: #475F45;
+    text-align: center;
+    padding: 20px 40px;
+
+}
+
+.btn--active {
+    color: white;
+    background-color: #475F45;
+    margin-right: 16px;
+}
+.hero__img-block{
+    
+}
